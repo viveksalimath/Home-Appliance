@@ -108,10 +108,14 @@ app.use((req, res) => {
   res.status(404).send(`File not found: ${req.path}`);
 });
 
-app.listen(PORT, () => {
-  console.log(`=================================================`);
-  console.log(` Metalora Storefront Running`);
-  console.log(` URL: http://localhost:${PORT}`);
-  console.log(` Serving assets from: ${SHOP_DIR}`);
-  console.log(`=================================================`);
-});
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`=================================================`);
+    console.log(` Metalora Storefront Running`);
+    console.log(` URL: http://localhost:${PORT}`);
+    console.log(` Serving assets from: ${SHOP_DIR}`);
+    console.log(`=================================================`);
+  });
+}
+
+module.exports = app;

@@ -10,7 +10,9 @@ const PORT = process.env.PORT || 3000;
 app.use(cors());
 app.use(morgan('dev'));
 
-const SHOP_DIR = path.join(__dirname, 'shop.ttkprestige.com');
+const SHOP_DIR = fs.existsSync(path.join(__dirname, 'shop.ttkMetalora.com'))
+  ? path.join(__dirname, 'shop.ttkMetalora.com')
+  : path.join(__dirname, 'shop.ttkprestige.com');
 
 // Middleware to mock API endpoints and silence tracking beacons
 app.use((req, res, next) => {
@@ -62,12 +64,14 @@ app.use((req, res, next) => {
 app.get(['/', '/index.html'], (req, res) => {
   const indexPath = path.join(SHOP_DIR, 'index.html');
   if (!fs.existsSync(indexPath)) {
-    return res.status(404).send('shop.ttkprestige.com/index.html not found');
+    return res.status(404).send('shop.ttkMetalora.com/index.html not found');
   }
 
   let html = fs.readFileSync(indexPath, 'utf8');
 
-  // Rewrite absolute URLs of shop.ttkprestige.com to local paths
+  // Rewrite absolute URLs of both shop.ttkMetalora.com and shop.ttkprestige.com to local paths
+  html = html.replace(/https:\/\/shop\.ttkMetalora\.com\//g, '/');
+  html = html.replace(/https:\\\/\\\/shop\.ttkMetalora\.com\\\//g, '\\/');
   html = html.replace(/https:\/\/shop\.ttkprestige\.com\//g, '/');
   html = html.replace(/https:\\\/\\\/shop\.ttkprestige\.com\\\//g, '\\/');
 
@@ -85,7 +89,7 @@ app.get(['/', '/index.html'], (req, res) => {
 // Support /media/.renditions path directly
 app.use('/media/.renditions', express.static(path.join(SHOP_DIR, 'media/renditions')));
 
-// Serve primary shop.ttkprestige.com static assets
+// Serve primary shop.ttkMetalora.com static assets
 app.use(express.static(SHOP_DIR));
 
 // Serve other mirrored domain folders from the root directory

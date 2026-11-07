@@ -3221,7 +3221,7 @@ fieldset[disabled] .cart-container .form-cart .action.continue {
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('../../frontend/Prestige/prestigetheme/en_US/fonts/opensans/semibold/opensans-600.woff2') format('woff2'), url('../../frontend/Prestige/prestigetheme/en_US/fonts/opensans/semibold/opensans-600.woff') format('woff');
+    src: url('../../frontend/Metalora/Metaloratheme/en_US/fonts/opensans/semibold/opensans-600.woff2') format('woff2'), url('../../frontend/Metalora/Metaloratheme/en_US/fonts/opensans/semibold/opensans-600.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap
@@ -3229,7 +3229,7 @@ fieldset[disabled] .cart-container .form-cart .action.continue {
 
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('../../frontend/Prestige/prestigetheme/en_US/fonts/sourcesans/regular/SourceSansPro-Regular.woff2') format('woff2'), url('../../frontend/Prestige/prestigetheme/en_US/fonts/sourcesans/regular/SourceSansPro-Regular.woff') format('woff');
+    src: url('../../frontend/Metalora/Metaloratheme/en_US/fonts/sourcesans/regular/SourceSansPro-Regular.woff2') format('woff2'), url('../../frontend/Metalora/Metaloratheme/en_US/fonts/sourcesans/regular/SourceSansPro-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -3237,7 +3237,7 @@ fieldset[disabled] .cart-container .form-cart .action.continue {
 
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('../../frontend/Prestige/prestigetheme/en_US/fonts/sourcesans/semibold/SourceSansPro-Semibold.woff2') format('woff2'), url('../../frontend/Prestige/prestigetheme/en_US/fonts/sourcesans/semibold/SourceSansPro-Semibold.woff') format('woff');
+    src: url('../../frontend/Metalora/Metaloratheme/en_US/fonts/sourcesans/semibold/SourceSansPro-Semibold.woff2') format('woff2'), url('../../frontend/Metalora/Metaloratheme/en_US/fonts/sourcesans/semibold/SourceSansPro-Semibold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap
@@ -3245,7 +3245,7 @@ fieldset[disabled] .cart-container .form-cart .action.continue {
 
 @font-face {
     font-family: 'Source Sans Pro';
-    src: url('../../frontend/Prestige/prestigetheme/en_US/fonts/sourcesans/bold/SourceSansPro-Bold.woff2') format('woff2'), url('../../frontend/Prestige/prestigetheme/en_US/fonts/sourcesans/bold/SourceSansPro-Bold.woff') format('woff');
+    src: url('../../frontend/Metalora/Metaloratheme/en_US/fonts/sourcesans/bold/SourceSansPro-Bold.woff2') format('woff2'), url('../../frontend/Metalora/Metaloratheme/en_US/fonts/sourcesans/bold/SourceSansPro-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap
@@ -3726,7 +3726,7 @@ table>caption {
 }
 
 .load.indicator:before {
-    background: transparent url('../../frontend/Prestige/prestigetheme/en_US/images/loader-2.gif') no-repeat 50% 50%;
+    background: transparent url('../../frontend/Metalora/Metaloratheme/en_US/images/loader-2.gif') no-repeat 50% 50%;
     border-radius: 5px;
     height: 160px;
     width: 160px;
@@ -4243,7 +4243,7 @@ fieldset[disabled] ._has-datepicker~.ui-datepicker-trigger {
 
 @font-face {
     font-family: 'icons-blank-theme';
-    src: url('../../frontend/Prestige/prestigetheme/en_US/fonts/Blank-Theme-Icons/Blank-Theme-Icons.woff2') format('woff2'), url('../../frontend/Prestige/prestigetheme/en_US/fonts/Blank-Theme-Icons/Blank-Theme-Icons.woff') format('woff');
+    src: url('../../frontend/Metalora/Metaloratheme/en_US/fonts/Blank-Theme-Icons/Blank-Theme-Icons.woff2') format('woff2'), url('../../frontend/Metalora/Metaloratheme/en_US/fonts/Blank-Theme-Icons/Blank-Theme-Icons.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap
@@ -5452,7 +5452,7 @@ body._has-modal-custom .modal-custom-overlay {
 }
 
 .admin__data-grid-loading-mask .spinner {
-    background: url('../../frontend/Prestige/prestigetheme/en_US/images/loader-2.gif') 50% 50% no-repeat;
+    background: url('../../frontend/Metalora/Metaloratheme/en_US/images/loader-2.gif') 50% 50% no-repeat;
     display: inline-block;
     font-size: 4rem;
     height: 1em;
@@ -5465,7 +5465,7 @@ body._has-modal-custom .modal-custom-overlay {
 }
 
 .ie9 .admin__data-grid-loading-mask .spinner {
-    background: url('../../frontend/Prestige/prestigetheme/en_US/images/loader-2.gif') 50% 50% no-repeat;
+    background: url('../../frontend/Metalora/Metaloratheme/en_US/images/loader-2.gif') 50% 50% no-repeat;
     bottom: 0;
     height: 149px;
     left: 0;
@@ -5627,7 +5627,7 @@ body._has-modal-custom .modal-custom-overlay {
 }
 
 .lac-notification-sticky .lac-notification .lac-notification-links .lac-notification-close-link:after {
-    background: url('../../frontend/Prestige/prestigetheme/en_US/Magento_LoginAsCustomerFrontendUi/images/close.svg');
+    background: url('../../frontend/Metalora/Metaloratheme/en_US/Magento_LoginAsCustomerFrontendUi/images/close.svg');
     content: ' ';
     display: inline-block;
     height: 12px;
@@ -5640,8 +5640,8 @@ body._has-modal-custom .modal-custom-overlay {
     font-family: 'pagebuilder-font';
     font-style: normal;
     font-weight: 400;
-    src: url('../../frontend/Prestige/prestigetheme/en_US/Magento_PageBuilder/fonts/pagebuilder-icons/pagebuilder-icons.eot');
-    src: url('../../frontend/Prestige/prestigetheme/en_US/Magento_PageBuilder/fonts/pagebuilder-icons/pagebuilder-icons.eot?#iefix') format('embedded-opentype'), url('../../frontend/Prestige/prestigetheme/en_US/Magento_PageBuilder/fonts/pagebuilder-icons/pagebuilder-icons.woff') format('woff'), url('../../frontend/Prestige/prestigetheme/en_US/Magento_PageBuilder/fonts/pagebuilder-icons/pagebuilder-icons.ttf') format('truetype');
+    src: url('../../frontend/Metalora/Metaloratheme/en_US/Magento_PageBuilder/fonts/pagebuilder-icons/pagebuilder-icons.eot');
+    src: url('../../frontend/Metalora/Metaloratheme/en_US/Magento_PageBuilder/fonts/pagebuilder-icons/pagebuilder-icons.eot?#iefix') format('embedded-opentype'), url('../../frontend/Metalora/Metaloratheme/en_US/Magento_PageBuilder/fonts/pagebuilder-icons/pagebuilder-icons.woff') format('woff'), url('../../frontend/Metalora/Metaloratheme/en_US/Magento_PageBuilder/fonts/pagebuilder-icons/pagebuilder-icons.ttf') format('truetype');
     font-display: swap
 }
 
@@ -10519,7 +10519,7 @@ button.am-filter-go.mageprince-buynow-btn-list,
     top: 50%;
     margin-left: -40px;
     margin-top: -40px;
-    background: url("../../frontend/Prestige/prestigetheme/en_US/css/owl.video.play.png") no-repeat;
+    background: url("../../frontend/Metalora/Metaloratheme/en_US/css/owl.video.play.png") no-repeat;
     cursor: pointer;
     z-index: 1;
     -webkit-backface-visibility: hidden;
@@ -12687,7 +12687,7 @@ fieldset[disabled] .wishlist.window.popup .popup-actions .action.close {
 }
 
 .fotorama-video-container:after {
-    background: url('../../frontend/Prestige/prestigetheme/en_US/Magento_ProductVideo/img/gallery-sprite.png') bottom right;
+    background: url('../../frontend/Metalora/Metaloratheme/en_US/Magento_ProductVideo/img/gallery-sprite.png') bottom right;
     bottom: 0;
     content: '';
     height: 100px;
@@ -12712,7 +12712,7 @@ fieldset[disabled] .wishlist.window.popup .popup-actions .action.close {
 }
 
 .video-thumb-icon:after {
-    background: url('../../frontend/Prestige/prestigetheme/en_US/Magento_ProductVideo/img/gallery-sprite.png') bottom left;
+    background: url('../../frontend/Metalora/Metaloratheme/en_US/Magento_ProductVideo/img/gallery-sprite.png') bottom left;
     bottom: 0;
     content: '';
     height: 40px;
@@ -13176,7 +13176,7 @@ fieldset[disabled] .wishlist.window.popup .popup-actions .action.close {
 }
 
 .swatch-option-loading {
-    content: url('../../frontend/Prestige/prestigetheme/en_US/images/loader-2.gif')
+    content: url('../../frontend/Metalora/Metaloratheme/en_US/images/loader-2.gif')
 }
 
 .swatch-option-tooltip {
@@ -15714,7 +15714,7 @@ div.swatch-option-tooltip {
 
 .am-collapse-icon:after,
 .am-show-more:before {
-    background: url("../../frontend/Prestige/prestigetheme/en_US/Amasty_Shopby/images/svg/arrow-bottom.svg") no-repeat 100%/contain;
+    background: url("../../frontend/Metalora/Metaloratheme/en_US/Amasty_Shopby/images/svg/arrow-bottom.svg") no-repeat 100%/contain;
     content: '';
     height: 20px;
     position: absolute;
@@ -16740,7 +16740,7 @@ div.swatch-option-tooltip {
     display: inline-block;
     width: 30px;
     height: 30px;
-    background: url('../../frontend/Prestige/prestigetheme/en_US/Amasty_Shopby/images/svg/loader.svg') center/30px no-repeat;
+    background: url('../../frontend/Metalora/Metaloratheme/en_US/Amasty_Shopby/images/svg/loader.svg') center/30px no-repeat;
     vertical-align: middle
 }
 
@@ -16782,7 +16782,7 @@ div.swatch-option-tooltip {
     display: block;
     width: 100px;
     height: 100px;
-    background: url('../../frontend/Prestige/prestigetheme/en_US/Amasty_Shopby/images/svg/loader.svg') center/100px no-repeat;
+    background: url('../../frontend/Metalora/Metaloratheme/en_US/Amasty_Shopby/images/svg/loader.svg') center/100px no-repeat;
     transform: translate(-50%, -10%)
 }
 
@@ -17633,7 +17633,7 @@ body .grid .product-item .product-item-info .product-item-details {
 
 .product-item-info .product-item-details .product-item-actions .action.link-quickview:before {
     content: "";
-    background-image: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_6415_2735" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20"><rect width="20" height="20" fill="%23D9D9D9"/></mask><g mask="url(../../frontend/Prestige/prestigetheme/en_US/css/%23mask0_6415_2735)"><path d="M16.2846 17.1472L11.0506 11.9132C10.634 12.2572 10.1548 12.5265 9.61315 12.7209C9.07148 12.9153 8.51112 13.0126 7.93206 13.0126C6.50776 13.0126 5.30233 12.5194 4.31577 11.5331C3.32922 10.5468 2.83594 9.34168 2.83594 7.91775C2.83594 6.49381 3.32909 5.28824 4.3154 4.30106C5.3017 3.3139 6.50683 2.82031 7.93077 2.82031C9.3547 2.82031 10.5603 3.31359 11.5474 4.30015C12.5346 5.2867 13.0282 6.49213 13.0282 7.91644C13.0282 8.51152 12.9283 9.0799 12.7285 9.62156C12.5287 10.1632 12.2622 10.6344 11.9288 11.035L17.1628 16.269L16.2846 17.1472ZM7.93206 11.7626C9.00579 11.7626 9.91524 11.39 10.6604 10.6448C11.4056 9.89962 11.7782 8.99016 11.7782 7.91644C11.7782 6.84272 11.4056 5.93326 10.6604 5.18806C9.91524 4.44287 9.00579 4.07027 7.93206 4.07027C6.85834 4.07027 5.94888 4.44287 5.20369 5.18806C4.45851 5.93326 4.08592 6.84272 4.08592 7.91644C4.08592 8.99016 4.45851 9.89962 5.20369 10.6448C5.94888 11.39 6.85834 11.7626 7.93206 11.7626Z" fill="%231C1B1F"/></g></svg>');
+    background-image: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_6415_2735" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20"><rect width="20" height="20" fill="%23D9D9D9"/></mask><g mask="url(../../frontend/Metalora/Metaloratheme/en_US/css/%23mask0_6415_2735)"><path d="M16.2846 17.1472L11.0506 11.9132C10.634 12.2572 10.1548 12.5265 9.61315 12.7209C9.07148 12.9153 8.51112 13.0126 7.93206 13.0126C6.50776 13.0126 5.30233 12.5194 4.31577 11.5331C3.32922 10.5468 2.83594 9.34168 2.83594 7.91775C2.83594 6.49381 3.32909 5.28824 4.3154 4.30106C5.3017 3.3139 6.50683 2.82031 7.93077 2.82031C9.3547 2.82031 10.5603 3.31359 11.5474 4.30015C12.5346 5.2867 13.0282 6.49213 13.0282 7.91644C13.0282 8.51152 12.9283 9.0799 12.7285 9.62156C12.5287 10.1632 12.2622 10.6344 11.9288 11.035L17.1628 16.269L16.2846 17.1472ZM7.93206 11.7626C9.00579 11.7626 9.91524 11.39 10.6604 10.6448C11.4056 9.89962 11.7782 8.99016 11.7782 7.91644C11.7782 6.84272 11.4056 5.93326 10.6604 5.18806C9.91524 4.44287 9.00579 4.07027 7.93206 4.07027C6.85834 4.07027 5.94888 4.44287 5.20369 5.18806C4.45851 5.93326 4.08592 6.84272 4.08592 7.91644C4.08592 8.99016 4.45851 9.89962 5.20369 10.6448C5.94888 11.39 6.85834 11.7626 7.93206 11.7626Z" fill="%231C1B1F"/></g></svg>');
     width: 2rem;
     height: 2rem;
     display: grid;
@@ -24503,7 +24503,7 @@ div#cart-top-id .cart-top-headings {
 
 .minicart-wrapper .showcart:before {
     content: "";
-    background: url("../../frontend/Prestige/prestigetheme/en_US/images/cart_icon.svg") no-repeat;
+    background: url("../../frontend/Metalora/Metaloratheme/en_US/images/cart_icon.svg") no-repeat;
     width: 3rem;
     height: 3rem;
     display: grid;
@@ -33757,16 +33757,16 @@ input[type=email] {
     border-bottom: 1px solid #000
 }
 
-.header.panel .custom-switcher .switcher-options .switcher-dropdown li.store-prestige a {
+.header.panel .custom-switcher .switcher-options .switcher-dropdown li.store-Metalora a {
     font-size: 0;
     display: grid;
     padding: 1rem;
     justify-content: center
 }
 
-.header.panel .custom-switcher .switcher-options .switcher-dropdown li.store-prestige a:before {
+.header.panel .custom-switcher .switcher-options .switcher-dropdown li.store-Metalora a:before {
     content: "";
-    background: url('../../frontend/Prestige/prestigetheme/en_US/images/Judge-Logo.jpg') repeat-x 0 0;
+    background: url('../../frontend/Metalora/Metaloratheme/en_US/images/Judge-Logo.jpg') repeat-x 0 0;
     overflow: hidden;
     width: 9rem;
     height: 4.5rem;
@@ -33775,7 +33775,7 @@ input[type=email] {
     margin-bottom: .5rem
 }
 
-.header.panel .custom-switcher .switcher-options .switcher-dropdown li.store-prestige a:after {
+.header.panel .custom-switcher .switcher-options .switcher-dropdown li.store-Metalora a:after {
     content: "Shop Judge >";
     font-size: 1.4rem
 }
@@ -33789,7 +33789,7 @@ input[type=email] {
 
 .header.panel .custom-switcher .switcher-options .switcher-dropdown li.store-kitchendiaries a:before {
     content: "";
-    background: url('../../frontend/Prestige/prestigetheme/en_US/images/MyKitchenDiaries_logo-1.png') repeat-x 0 0;
+    background: url('../../frontend/Metalora/Metaloratheme/en_US/images/MyKitchenDiaries_logo-1.png') repeat-x 0 0;
     overflow: hidden;
     width: 9rem;
     height: 4.5rem;
@@ -38328,7 +38328,7 @@ button.braintree-googlepay-button.black.long,
     }
     .filter-active .block-title.filter-title strong:after {
         content: "";
-        background-image: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_4447_89775" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20"><rect width="20" height="20" fill="%23D9D9D9"/></mask><g mask="url(../../frontend/Prestige/prestigetheme/en_US/css/%23mask0_4447_89775)"><path d="M5.33268 15.8327L4.16602 14.666L8.83268 9.99935L4.16602 5.33268L5.33268 4.16602L9.99935 8.83268L14.666 4.16602L15.8327 5.33268L11.166 9.99935L15.8327 14.666L14.666 15.8327L9.99935 11.166L5.33268 15.8327Z" fill="%231C1B1F"/></g></svg>');
+        background-image: url('data:image/svg+xml,<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_4447_89775" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20"><rect width="20" height="20" fill="%23D9D9D9"/></mask><g mask="url(../../frontend/Metalora/Metaloratheme/en_US/css/%23mask0_4447_89775)"><path d="M5.33268 15.8327L4.16602 14.666L8.83268 9.99935L4.16602 5.33268L5.33268 4.16602L9.99935 8.83268L14.666 4.16602L15.8327 5.33268L11.166 9.99935L15.8327 14.666L14.666 15.8327L9.99935 11.166L5.33268 15.8327Z" fill="%231C1B1F"/></g></svg>');
         background-size: 100%;
         height: 20px;
         width: 20px
@@ -38938,7 +38938,7 @@ button.braintree-googlepay-button.black.long,
         display: grid;
         background-repeat: no-repeat;
         background-position: center center;
-        background: url("../../frontend/Prestige/prestigetheme/en_US/images/search_icon.svg") no-repeat
+        background: url("../../frontend/Metalora/Metaloratheme/en_US/images/search_icon.svg") no-repeat
     }
     .block-search .active .control {
         position: absolute;
@@ -40324,20 +40324,20 @@ button.braintree-googlepay-button.black.long,
     .page-header .header.panel>.header.links>li a {
         padding-right: 1.5rem
     }
-    .page-header .header.panel .custom-switcher .switcher-options .switcher-dropdown li.store-prestige a,
+    .page-header .header.panel .custom-switcher .switcher-options .switcher-dropdown li.store-Metalora a,
     .page-header .header.panel .custom-switcher .switcher-options .switcher-dropdown li.store-kitchendiaries a {
         display: flex !important;
         align-items: center;
         justify-content: left
     }
-    .page-header .header.panel .custom-switcher .switcher-options .switcher-dropdown li.store-prestige a:before,
+    .page-header .header.panel .custom-switcher .switcher-options .switcher-dropdown li.store-Metalora a:before,
     .page-header .header.panel .custom-switcher .switcher-options .switcher-dropdown li.store-kitchendiaries a:before {
         width: 5rem !important;
         margin: 0 !important;
         height: 2.5rem !important;
         margin-right: 5px !important
     }
-    .page-header .header.panel .custom-switcher .switcher-options .switcher-dropdown li.store-prestige a:after,
+    .page-header .header.panel .custom-switcher .switcher-options .switcher-dropdown li.store-Metalora a:after,
     .page-header .header.panel .custom-switcher .switcher-options .switcher-dropdown li.store-kitchendiaries a:after {
         font-size: 12px !important
     }
@@ -56236,8 +56236,8 @@ a.text-dark:focus {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-brands-400.eot);
-    src: url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-brands-400.woff2) format("woff2"), url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-brands-400.woff) format("woff"), url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-brands-400.ttf) format("truetype"), url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-brands-400.svg#fontawesome) format("svg")
+    src: url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-brands-400.eot);
+    src: url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-brands-400.eot?#iefix) format("embedded-opentype"), url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-brands-400.woff2) format("woff2"), url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-brands-400.woff) format("woff"), url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-brands-400.ttf) format("truetype"), url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-brands-400.svg#fontawesome) format("svg")
 }
 
 .fab {
@@ -56249,8 +56249,8 @@ a.text-dark:focus {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-regular-400.eot);
-    src: url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-regular-400.woff2) format("woff2"), url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-regular-400.woff) format("woff"), url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-regular-400.ttf) format("truetype"), url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-regular-400.svg#fontawesome) format("svg")
+    src: url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-regular-400.eot);
+    src: url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-regular-400.eot?#iefix) format("embedded-opentype"), url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-regular-400.woff2) format("woff2"), url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-regular-400.woff) format("woff"), url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-regular-400.ttf) format("truetype"), url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-regular-400.svg#fontawesome) format("svg")
 }
 
 .fab,
@@ -56263,8 +56263,8 @@ a.text-dark:focus {
     font-style: normal;
     font-weight: 900;
     font-display: block;
-    src: url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-solid-900.eot);
-    src: url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-solid-900.woff2) format("woff2"), url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-solid-900.woff) format("woff"), url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-solid-900.ttf) format("truetype"), url(../../frontend/Prestige/prestigetheme/en_US/fonts/fa-solid-900.svg#fontawesome) format("svg")
+    src: url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-solid-900.eot);
+    src: url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-solid-900.eot?#iefix) format("embedded-opentype"), url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-solid-900.woff2) format("woff2"), url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-solid-900.woff) format("woff"), url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-solid-900.ttf) format("truetype"), url(../../frontend/Metalora/Metaloratheme/en_US/fonts/fa-solid-900.svg#fontawesome) format("svg")
 }
 
 .fa,
@@ -58788,7 +58788,7 @@ ul.ammenu-items.-root.-accordion {
     speak: none;
     width: 16px;
     height: 32px;
-    background: url(../../frontend/Prestige/prestigetheme/en_US/Magefan_Blog/images/search-icon.svg) no-repeat -10px -7px;
+    background: url(../../frontend/Metalora/Metaloratheme/en_US/Magefan_Blog/images/search-icon.svg) no-repeat -10px -7px;
     background-size: 35px;
     opacity: .5
 }
@@ -58989,31 +58989,31 @@ ul.ammenu-items.-root.-accordion {
 }
 
 .mf-blog-icon.mfbi-calendar {
-    background-image: url('../../frontend/Prestige/prestigetheme/en_US/Magefan_Blog/images/calendar-icon.svg')
+    background-image: url('../../frontend/Metalora/Metaloratheme/en_US/Magefan_Blog/images/calendar-icon.svg')
 }
 
 .mf-blog-icon.mfbi-folder {
-    background-image: url('../../frontend/Prestige/prestigetheme/en_US/Magefan_Blog/images/folder-icon.svg')
+    background-image: url('../../frontend/Metalora/Metaloratheme/en_US/Magefan_Blog/images/folder-icon.svg')
 }
 
 .mf-blog-icon.mfbi-comments {
-    background-image: url('../../frontend/Prestige/prestigetheme/en_US/Magefan_Blog/images/comments-icon.svg')
+    background-image: url('../../frontend/Metalora/Metaloratheme/en_US/Magefan_Blog/images/comments-icon.svg')
 }
 
 .mf-blog-icon.mfbi-tags {
-    background-image: url('../../frontend/Prestige/prestigetheme/en_US/Magefan_Blog/images/tags-icon.svg')
+    background-image: url('../../frontend/Metalora/Metaloratheme/en_US/Magefan_Blog/images/tags-icon.svg')
 }
 
 .mf-blog-icon.mfbi-user {
-    background-image: url('../../frontend/Prestige/prestigetheme/en_US/Magefan_Blog/images/user-icon.svg')
+    background-image: url('../../frontend/Metalora/Metaloratheme/en_US/Magefan_Blog/images/user-icon.svg')
 }
 
 .mf-blog-icon.mfbi-views {
-    background-image: url('../../frontend/Prestige/prestigetheme/en_US/Magefan_Blog/images/views-icon.svg')
+    background-image: url('../../frontend/Metalora/Metaloratheme/en_US/Magefan_Blog/images/views-icon.svg')
 }
 
 .mf-blog-icon.mfbi-reading-time {
-    background-image: url('../../frontend/Prestige/prestigetheme/en_US/Magefan_Blog/images/time-icon.svg')
+    background-image: url('../../frontend/Metalora/Metaloratheme/en_US/Magefan_Blog/images/time-icon.svg')
 }
 
 .post-sharing-top .share-elements {
@@ -59699,7 +59699,7 @@ body.blog-page {
     speak: none;
     width: 16px;
     height: 32px;
-    background: url(../../frontend/Prestige/prestigetheme/en_US/Magefan_Blog/images/search-icon-white.svg) no-repeat -10px -7px;
+    background: url(../../frontend/Metalora/Metaloratheme/en_US/Magefan_Blog/images/search-icon-white.svg) no-repeat -10px -7px;
     background-size: 35px;
     opacity: 1
 }

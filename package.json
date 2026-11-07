@@ -4,6 +4,7 @@
   "description": "Metalora Premium Cookware & Smart Kitchen Appliances Storefront",
   "main": "server.js",
   "scripts": {
+    "build": "echo 'Build complete'",
     "start": "node server.js",
     "dev": "node server.js"
   },
